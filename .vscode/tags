@@ -1,0 +1,193 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+00.py	../tests/00.py	1;"	kind:file	line:1
+01.py	../tests/01.py	1;"	kind:file	line:1
+02.py	../tests/02.py	1;"	kind:file	line:1
+03.py	../tests/03.py	1;"	kind:file	line:1
+04.py	../tests/04.py	1;"	kind:file	line:1
+05.py	../tests/05.py	1;"	kind:file	line:1
+06.py	../tests/06.py	1;"	kind:file	line:1
+07.py	../tests/07.py	1;"	kind:file	line:1
+08.py	../tests/08.py	1;"	kind:file	line:1
+09.py	../tests/09.py	1;"	kind:file	line:1
+10.py	../tests/10.py	1;"	kind:file	line:1
+11.py	../tests/11.py	1;"	kind:file	line:1
+12.py	../tests/12.py	1;"	kind:file	line:1
+BetterWidget	../hog_gui.py	/^class BetterWidget(object):$/;"	kind:class	line:20
+Button	../hog_gui.py	/^class Button(BetterWidget, tk.Button):$/;"	kind:class	line:59
+DELAY	../hog_gui.py	/^DELAY=2000$/;"	kind:variable	line:406
+Entry	../hog_gui.py	/^class Entry(TextWidget, tk.Entry):$/;"	kind:class	line:65
+Frame	../hog_gui.py	/^class Frame(BetterWidget, tk.Frame):$/;"	kind:class	line:72
+GOAL_SCORE	../hog.py	/^GOAL_SCORE = 100  # The goal of Hog is to score 100 points.$/;"	kind:variable	line:6
+GOAL_SCORE	../tests/check_strategy.py	/^from hog import GOAL_SCORE$/;"	kind:namespace	line:1
+GameTurn	../tests/play_utils.py	/^class GameTurn(object):$/;"	kind:class	line:27
+HogGUI	../hog_gui.py	/^class HogGUI(Frame):$/;"	kind:class	line:104
+HogGUIException	../hog_gui.py	/^class HogGUIException(BaseException):$/;"	kind:class	line:100
+IORedirector	../hog_gui.py	/^class IORedirector(object):$/;"	kind:class	line:78
+KILL	../hog_gui.py	/^    KILL = -9   # kill signal to stop a game$/;"	kind:variable	line:107
+Label	../hog_gui.py	/^class Label(TextWidget, tk.Label):$/;"	kind:class	line:52
+NUM_TESTS	../tests/play_utils.py	/^NUM_TESTS = 1000$/;"	kind:variable	line:7
+StdoutRedirector	../hog_gui.py	/^class StdoutRedirector(IORedirector):$/;"	kind:class	line:83
+TEST_SEED	../tests/play_utils.py	/^TEST_SEED = 1337$/;"	kind:variable	line:6
+TRACE_SOL	../tests/play_utils.py	/^TRACE_SOL = 'tests\/play.sol'$/;"	kind:variable	line:5
+Text	../hog_gui.py	/^class Text(tk.Text):$/;"	kind:class	line:46
+TextWidget	../hog_gui.py	/^class TextWidget(BetterWidget):$/;"	kind:class	line:30
+_PREFIX	../ucb.py	/^_PREFIX = ''$/;"	kind:variable	line:27
+__init__	../hog_gui.py	/^    def __init__(self, **kwargs):$/;"	kind:member	line:32
+__init__	../hog_gui.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:61
+__init__	../hog_gui.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:74
+__init__	../hog_gui.py	/^    def __init__(self, parent, **kwargs):$/;"	kind:member	line:48
+__init__	../hog_gui.py	/^    def __init__(self, parent, **kwargs):$/;"	kind:member	line:54
+__init__	../hog_gui.py	/^    def __init__(self, parent, **kwargs):$/;"	kind:member	line:67
+__init__	../hog_gui.py	/^    def __init__(self, parent, computer=False):$/;"	kind:member	line:113
+__init__	../hog_gui.py	/^    def __init__(self, text_area):$/;"	kind:member	line:80
+__init__	../tests/play_utils.py	/^    def __init__(self, score, opponent_score, who, num_rolls):$/;"	kind:member	line:28
+__init__.py	../tests/__init__.py	1;"	kind:file	line:1
+__repr__	../tests/play_utils.py	/^    def __repr__(self):$/;"	kind:member	line:100
+always_roll	../hog.py	/^def always_roll(n):$/;"	kind:function	line:248
+announce_highest	../hog.py	/^def announce_highest(who, previous_high=0, previous_score=0):$/;"	kind:function	line:199
+announce_lead_changes	../hog.py	/^def announce_lead_changes(previous_leader=None):$/;"	kind:function	line:147
+argparse	../hog.py	/^    import argparse$/;"	kind:namespace	line:405
+argparse	../hog_gui.py	/^import argparse$/;"	kind:namespace	line:7
+average_win_rate	../hog.py	/^def average_win_rate(strategy, baseline=always_roll(4)):$/;"	kind:function	line:321
+bacon_strategy	../hog.py	/^def bacon_strategy(score, opponent_score, margin=8, num_rolls=4):$/;"	kind:function	line:351
+base64	../calc.py	/^import zlib, base64$/;"	kind:namespace	line:1
+bg	../hog_gui.py	/^bg='#ffffff'$/;"	kind:variable	line:366
+both	../hog.py	/^def both(f, g):$/;"	kind:function	line:175
+button_theme	../hog_gui.py	/^button_theme = {$/;"	kind:variable	line:388
+calc.py	../calc.py	1;"	kind:file	line:1
+check_play_function	../tests/play_utils.py	/^def check_play_function(hog):$/;"	kind:function	line:164
+check_strategy	../tests/check_strategy.py	/^def check_strategy(strategy, goal=GOAL_SCORE):$/;"	kind:function	line:28
+check_strategy.py	../tests/check_strategy.py	1;"	kind:file	line:1
+check_strategy_roll	../tests/check_strategy.py	/^def check_strategy_roll(score, opponent_score, num_rolls):$/;"	kind:function	line:3
+clear_dice	../hog_gui.py	/^    def clear_dice(self):$/;"	kind:member	line:227
+clear_messages	../hog_gui.py	/^    def clear_messages(self):$/;"	kind:member	line:232
+code	../ucb.py	/^import code$/;"	kind:namespace	line:3
+compare_trace	../tests/play_utils.py	/^def compare_trace(trace, sol):$/;"	kind:function	line:197
+config	../hog_gui.py	/^    def config(self, **kwargs):$/;"	kind:member	line:26
+destroy	../hog_gui.py	/^    def destroy(self):$/;"	kind:member	line:333
+dice	../dice.py	/^    def dice():$/;"	kind:function	line:21
+dice	../dice.py	/^    def dice():$/;"	kind:function	line:50
+dice	../hog_gui.py	/^import dice$/;"	kind:namespace	line:12
+dice.py	../dice.py	1;"	kind:file	line:1
+dice_summary	../tests/play_utils.py	/^    def dice_summary(self):$/;"	kind:member	line:91
+entry_theme	../hog_gui.py	/^entry_theme = {$/;"	kind:variable	line:395
+fg	../hog_gui.py	/^fg='#000000'$/;"	kind:variable	line:367
+final_strategy	../hog.py	/^def final_strategy(score, opponent_score):$/;"	kind:function	line:379
+flush	../hog_gui.py	/^    def flush(self):$/;"	kind:member	line:89
+font	../hog_gui.py	/^font=('Arial', 14)$/;"	kind:variable	line:368
+four_sided	../dice.py	/^four_sided = make_fair_dice(4)$/;"	kind:variable	line:25
+four_sided	../hog.py	/^from dice import six_sided, four_sided, make_test_dice$/;"	kind:namespace	line:3
+frame_theme	../hog_gui.py	/^frame_theme = {$/;"	kind:variable	line:371
+free_bacon	../hog.py	/^def free_bacon(score):$/;"	kind:function	line:37
+func_to_return	../hog.py	/^    def func_to_return(score0, score1):$/;"	kind:function	line:190
+func_to_return	../hog.py	/^    def func_to_return(score0, score1):$/;"	kind:function	line:217
+functools	../ucb.py	/^import functools$/;"	kind:namespace	line:4
+get_trace	../tests/play_utils.py	/^    def get_trace(score0, score1):$/;"	kind:function	line:133
+gui_dice	../hog_gui.py	/^        def gui_dice():$/;"	kind:function	line:218
+handler	../ucb.py	/^    def handler(signum, frame):$/;"	kind:function	line:82
+hash	../tests/play_utils.py	/^def hash(val):$/;"	kind:function	line:9
+height	../hog_gui.py	/^height=5  # Lines$/;"	kind:variable	line:369
+hog	../hog_gui.py	/^import hog$/;"	kind:namespace	line:11
+hog.py	../hog.py	1;"	kind:file	line:1
+hog_gui.py	../hog_gui.py	1;"	kind:file	line:1
+init_dice	../hog_gui.py	/^    def init_dice(self):$/;"	kind:member	line:173
+init_messages	../hog_gui.py	/^    def init_messages(self):$/;"	kind:member	line:196
+init_restart	../hog_gui.py	/^    def init_restart(self):$/;"	kind:member	line:202
+init_rolls	../hog_gui.py	/^    def init_rolls(self):$/;"	kind:member	line:153
+init_scores	../hog_gui.py	/^    def init_scores(self):$/;"	kind:member	line:136
+init_status	../hog_gui.py	/^    def init_status(self):$/;"	kind:member	line:191
+inspect	../ucb.py	/^import inspect$/;"	kind:namespace	line:5
+interact	../hog.py	/^from ucb import main, trace, interact$/;"	kind:namespace	line:4
+interact	../ucb.py	/^def interact(msg=None):$/;"	kind:function	line:67
+is_correct	../tests/play_utils.py	/^    def is_correct(self, sol_hash):$/;"	kind:member	line:63
+is_over	../tests/play_utils.py	/^    def is_over(self):$/;"	kind:member	line:39
+is_successor	../tests/play_utils.py	/^    def is_successor(self, other):$/;"	kind:member	line:43
+is_swap	../hog.py	/^def is_swap(score0, score1):$/;"	kind:function	line:65
+label_theme	../hog_gui.py	/^label_theme = {$/;"	kind:variable	line:375
+load_traces_from_file	../tests/play_utils.py	/^def load_traces_from_file(path):$/;"	kind:function	line:249
+log	../ucb.py	/^def log(message):$/;"	kind:function	line:56
+log_current_line	../ucb.py	/^def log_current_line():$/;"	kind:function	line:61
+main	../hog.py	/^from ucb import main, trace, interact$/;"	kind:namespace	line:4
+main	../hog_gui.py	/^from ucb import main$/;"	kind:namespace	line:13
+main	../ucb.py	/^def main(fn):$/;"	kind:function	line:11
+make_averaged	../hog.py	/^def make_averaged(fn, num_samples=1000):$/;"	kind:function	line:268
+make_dice	../hog_gui.py	/^    def make_dice(self, sides):$/;"	kind:member	line:211
+make_fair_dice	../dice.py	/^def make_fair_dice(sides):$/;"	kind:function	line:18
+make_random_strat	../tests/play_utils.py	/^def make_random_strat():$/;"	kind:function	line:12
+make_solution_traces	../tests/play_utils.py	/^def make_solution_traces(hog):$/;"	kind:function	line:185
+make_test_dice	../dice.py	/^def make_test_dice(*outcomes):$/;"	kind:function	line:28
+make_test_dice	../hog.py	/^from dice import six_sided, four_sided, make_test_dice$/;"	kind:namespace	line:3
+make_traced	../tests/play_utils.py	/^def make_traced(s0, s1, six_sided, four_sided):$/;"	kind:function	line:105
+make_traced_dice	../tests/play_utils.py	/^    def make_traced_dice(dice, dice_sides):$/;"	kind:function	line:124
+make_traced_strategy	../tests/play_utils.py	/^    def make_traced_strategy(strat, player):$/;"	kind:function	line:111
+max_scoring_num_rolls	../hog.py	/^def max_scoring_num_rolls(dice=six_sided, num_samples=1000):$/;"	kind:function	line:291
+md5	../tests/play_utils.py	/^from hashlib import md5$/;"	kind:namespace	line:3
+name	../hog_gui.py	/^def name(who):$/;"	kind:function	line:92
+other	../hog.py	/^def other(player):$/;"	kind:function	line:76
+pack	../hog_gui.py	/^    def pack(self, **kwargs):$/;"	kind:member	line:22
+play	../hog.py	/^def play(strategy0,$/;"	kind:function	line:92
+play	../hog_gui.py	/^    def play(self):$/;"	kind:member	line:296
+play_traced	../tests/play_utils.py	/^def play_traced(hog, strat0, strat1):$/;"	kind:function	line:147
+play_utils.py	../tests/play_utils.py	1;"	kind:file	line:1
+print_trace	../tests/play_utils.py	/^def print_trace(trace, incorrect=None):$/;"	kind:function	line:212
+randint	../dice.py	/^from random import randint$/;"	kind:namespace	line:16
+random	../tests/play_utils.py	/^import random$/;"	kind:namespace	line:1
+random_strat	../tests/play_utils.py	/^    def random_strat(score, opponent_score):$/;"	kind:function	line:16
+re	../ucb.py	/^import re$/;"	kind:namespace	line:6
+restart	../hog_gui.py	/^    def restart(self):$/;"	kind:member	line:325
+return_average	../hog.py	/^    def return_average(*args):$/;"	kind:function	line:281
+roll	../hog_gui.py	/^    def roll(self):$/;"	kind:member	line:235
+roll_dice	../hog.py	/^def roll_dice(num_rolls, dice=six_sided):$/;"	kind:function	line:13
+run	../hog.py	/^def run(*args):$/;"	kind:function	line:400
+run	../hog_gui.py	/^def run(*args):$/;"	kind:function	line:409
+run_GUI	../hog_gui.py	/^def run_GUI(computer=False):$/;"	kind:function	line:338
+run_experiments	../hog.py	/^def run_experiments():$/;"	kind:function	line:330
+say	../hog.py	/^    def say(score0, score1):$/;"	kind:function	line:161
+say_scores	../hog.py	/^def say_scores(score0, score1):$/;"	kind:function	line:141
+select_bg	../hog_gui.py	/^select_bg = '#a6d785'$/;"	kind:variable	line:365
+set_successor	../tests/play_utils.py	/^    def set_successor(self, other):$/;"	kind:member	line:59
+signal	../ucb.py	/^import signal$/;"	kind:namespace	line:7
+silence	../hog.py	/^def silence(score0, score1):$/;"	kind:function	line:87
+six_sided	../dice.py	/^six_sided = make_fair_dice(6)$/;"	kind:variable	line:26
+six_sided	../hog.py	/^from dice import six_sided, four_sided, make_test_dice$/;"	kind:namespace	line:3
+strategy	../hog.py	/^    def strategy(score, opponent_score):$/;"	kind:function	line:262
+strategy	../hog_gui.py	/^    def strategy(self, score, opp_score):$/;"	kind:member	line:259
+swap_strategy	../hog.py	/^def swap_strategy(score, opponent_score, margin=8, num_rolls=4):$/;"	kind:function	line:362
+switch	../hog_gui.py	/^    def switch(self, who=None):$/;"	kind:member	line:249
+sys	../hog_gui.py	/^import sys$/;"	kind:namespace	line:8
+sys	../ucb.py	/^import sys$/;"	kind:namespace	line:8
+take_turn	../hog.py	/^def take_turn(num_rolls, opponent_score, dice=six_sided):$/;"	kind:function	line:45
+test	../tests/00.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/01.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/02.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/03.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/04.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/05.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/06.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/07.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/08.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/09.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/10.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/11.py	/^test = {$/;"	kind:variable	line:1
+test	../tests/12.py	/^test = {$/;"	kind:variable	line:1
+text	../hog_gui.py	/^    def text(self):$/;"	kind:member	line:39
+text	../hog_gui.py	/^    def text(self, value):$/;"	kind:member	line:43
+text_theme	../hog_gui.py	/^text_theme = {$/;"	kind:variable	line:381
+tk	../hog_gui.py	/^import tkinter as tk$/;"	kind:namespace	line:9
+trace	../hog.py	/^from ucb import main, trace, interact$/;"	kind:namespace	line:4
+trace	../ucb.py	/^def trace(fn):$/;"	kind:function	line:28
+traced_dice	../tests/play_utils.py	/^        def traced_dice():$/;"	kind:function	line:125
+traced_strategy	../tests/play_utils.py	/^        def traced_strategy(score, opponent_score):$/;"	kind:function	line:112
+turn_rolls	../tests/play_utils.py	/^    def turn_rolls(self):$/;"	kind:member	line:86
+turn_summary	../tests/play_utils.py	/^    def turn_summary(self):$/;"	kind:member	line:69
+ucb.py	../ucb.py	1;"	kind:file	line:1
+winner	../hog.py	/^def winner(strategy0, strategy1):$/;"	kind:function	line:312
+wrapped	../ucb.py	/^    def wrapped(*args, **kwds):$/;"	kind:function	line:37
+write	../hog_gui.py	/^    def write(self, text):$/;"	kind:member	line:85
+write_traces_to_file	../tests/play_utils.py	/^def write_traces_to_file(path, traces):$/;"	kind:function	line:254
+zlib	../calc.py	/^import zlib, base64$/;"	kind:namespace	line:1
